@@ -3152,7 +3152,7 @@
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  border: 2px solid rgba(34, 183, 143, 0.5);
+  border: 2px solid rgb(255 87 0);
   width: 74.5%;
   padding-left: 18px;
 }
