@@ -3060,7 +3060,7 @@
   padding: 88px 0 80px;
   text-align: center;
   position: relative;
-  background: #1e272e;
+  background: #000000;
 }
 #footer .footer-main .bg1,
 #footer .footer-main .bg2 {
@@ -4649,7 +4649,7 @@
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   border: 2px solid #ff5c01;
-  padding: 18px 20px;
+  padding: 29px 10px;
   position: relative;
   z-index: 1;
 }
@@ -4683,7 +4683,7 @@
 }
 .countdown__item::before,
 .corner-box::before {
-  width: calc(110% - 44rem);
+  width: calc(110% - 52rem);
   height: calc(100% + 4px);
   top: -2px;
   left: 50%;
@@ -4691,7 +4691,7 @@
 }
 .countdown__item::after,
 .corner-box::after {
-  height: calc(110% - 44rem);
+  height: calc(110% - 52rem);
   width: calc(100% + 4px);
   left: -2px;
   top: 50%;
@@ -4699,7 +4699,7 @@
 }
 .countdown__item.st2::before,
 .corner-box.st2::before {
-  width: calc(105% - 44rem);
+  width: calc(105% - 52rem);
   height: calc(100% + 4px);
   top: -2px;
   left: 50%;
@@ -4941,7 +4941,7 @@
 }
 
 .about2 .box-text {
-  background: #0e2230;
+  background: #1e272e;
   padding: 18px 15px 18px 20px;
 }
 
