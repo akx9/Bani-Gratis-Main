@@ -4689,7 +4689,7 @@
 }
 .countdown__item::after,
 .corner-box::after {
-  height: calc(110% - 3rem);
+  height: calc(110% - 44rem);
   width: calc(100% + 4px);
   left: -2px;
   top: 50%;
@@ -4697,7 +4697,7 @@
 }
 .countdown__item.st2::before,
 .corner-box.st2::before {
-  width: calc(105% - 3rem);
+  width: calc(105% - 44rem);
   height: calc(100% + 4px);
   top: -2px;
   left: 50%;
