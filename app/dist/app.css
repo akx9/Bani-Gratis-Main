@@ -1038,7 +1038,6 @@
   box-shadow: 0 0px 32px 0 rgb(255 88 0);
 }
 .box-text .h7 {
-  text-transform: capitalize;
   margin-bottom: 16px;
 }
 .box-text p {
@@ -4682,11 +4681,11 @@
 }
 .countdown__item::before,
 .corner-box::before {
-  width: calc(102% - 3rem);
+  width: calc(110% - 44rem);
   height: calc(100% + 4px);
   top: -2px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-55%);
 }
 .countdown__item::after,
 .corner-box::after {
