@@ -1723,7 +1723,7 @@
   border-radius: 0;
   transform: translate(0px, 52px) !important;
   border: none;
-  box-shadow: 0 0px 32px 0 rgba(34, 183, 143, 0.5);
+  box-shadow: 0 0px 32px 0 rgb(255 88 0);
 }
 .seclect-box .dropdown-menu::before {
   position: absolute;
@@ -1877,7 +1877,7 @@
   color: #fff;
 }
 .item-details .list-product .box:hover {
-  box-shadow: 0 0px 32px 0 rgba(34, 183, 143, 0.5);
+  box-shadow: 0 0px 32px 0 rgb(255 88 0);
 }
 
 .form-contact fieldset {
@@ -2073,7 +2073,7 @@
   transition: all 0.3s ease;
   position: absolute;
   content: "";
-  border: 1px solid rgba(34, 183, 143, 0.5);
+  border: 1px solid rgb(255 88 0);
   top: 0px;
   left: 0px;
   width: 100%;
