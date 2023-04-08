@@ -384,9 +384,11 @@
   font-family: "IBM Plex Mono", monospace;
   margin-bottom: 8px;
   letter-spacing: 0.6px;
+  text-align: center;
 }
 .tf-title .title {
   text-transform: uppercase;
+  text-align: center;
 }
 .tf-title.st2 {
   text-align: left;
@@ -2062,7 +2064,7 @@
   transition: all 0.3s ease;
   position: relative;
   padding: 0px 0 20px 0;
-  background: rgba(34, 183, 143, 0.1);
+  background: #ff5a0160;
   overflow: hidden;
 }
 .team-box::after {
@@ -2096,7 +2098,7 @@
   z-index: -1;
 }
 .team-box.active, .team-box:hover {
-  box-shadow: 0 0px 32px 0 rgba(34, 183, 143, 0.5);
+  box-shadow: 0 0px 32px 0 rgb(255 88 0);
 }
 .team-box.active::before, .team-box:hover::before {
   border-color: #ff5c01;
@@ -6758,7 +6760,7 @@ h6,
 .h7,
 .h8 {
   font-family: "Chakra Petch", sans-serif;
-  font-weight: 700;
+  font-weight: 450;
   color: #fff;
 }
 
@@ -6796,6 +6798,9 @@ h6,
 }
 
 .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -6994,7 +6999,7 @@ a:hover {
 }
 
 .bg-st2 {
-  background: #1e272e !important;
+  background: #000000 !important;
 }
 
 .wrap-fx {
