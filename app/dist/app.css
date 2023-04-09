@@ -149,19 +149,11 @@
   border-right: 16px solid transparent;
   border-bottom: 16px solid #000000 !important;
 }
-
 .page-title .wrap-btn {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
-.page-title .wrap-btn .tf-button,
-.page-title .wrap-btn .tf-button-st2 {
-  height: 64px;
-  line-height: 64px;
-  padding: 0 34px;
-  text-align: center;
-}
+
 .page-title .wrap-btn .tf-button-st2 {
   margin-right: 18px;
   padding: 0px 32px;
@@ -169,11 +161,22 @@
   border: none;
   position: relative;
   overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+.page-title .wrap-btn .tf-button,
+.page-title .wrap-btn .tf-button-st2 {
+  height: 64px;
+  line-height: 64px;
+  padding: 0 34px;
+  text-align: center;
 }
 
 .page-title .wrap-btn.style2 .tf-button {
   padding: 0px 34px;
 }
+
 .page-title .wrap-btn.style2 .tf-button-st2 {
   margin-right: 18px;
 }
@@ -185,7 +188,7 @@
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   position: relative;
-  display: inline-block;
+  display: flex;
   background: transparent;
   font-family: "Chakra Petch", sans-serif;
   color: #fff;
@@ -924,13 +927,14 @@
   display: flex;
 }
 .main .page-title .box-slider .content-box {
-  padding-top: 72px;
-  width: 50%;
-  padding-left: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .main .page-title .box-slider .content-box h1 {
   text-transform: uppercase;
   margin-bottom: 16px;
+  text-align: center;
 }
 .main .page-title .box-slider .content-box p {
   letter-spacing: 0;
