@@ -933,7 +933,7 @@
 }
 .main .page-title .box-slider .content-box h1 {
   text-transform: uppercase;
-  margin-bottom: 16px;
+  margin-bottom: 50px;
   text-align: center;
 }
 .main .page-title .box-slider .content-box p {
@@ -1181,8 +1181,8 @@
   left: 10px;
 }
 .roadmap .corner-box::after {
-  height: calc(100% - 3rem);
-  width: calc(100% + 0px);
+  height: calc(98% - 0.1rem);
+  width: calc(107% + -30px);
   left: 0px;
   top: 50%;
   transform: translateY(-50%);
@@ -7180,5 +7180,49 @@ input[type=color]::placeholder {
   margin-bottom: 0 !important;
   background-color: #000000;
 }
+
+.mint-progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mint-label {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  width: 400px;
+  height: 20px;
+  background-color: #dcdcdc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.minted {
+  height: 100%;
+  background-color: #ff5c01;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.minted span {
+  margin-left: 5px;
+}
+
+.remaining {
+  height: 100%;
+  background-color: #f2f2f2;
+}
+
 
 /*# sourceMappingURL=app.css.map */
