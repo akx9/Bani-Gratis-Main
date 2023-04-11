@@ -891,7 +891,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("./../../assets/images/backgroup/bg-1.jpg") center center no-repeat;
+  background: url("./../../assets/images/backgroup/bgvid22.gif") no-repeat center center fixed;
   background-size: cover;
 }
 .main .page-title .slider-st2 {
@@ -1082,7 +1082,7 @@
 }
 .roadmap::before {
   width: 6px;
-  height: 105%;
+  height: 114%;
   background: #ff5c01;
   position: absolute;
   top: 3%;
@@ -1128,7 +1128,7 @@
   margin-bottom: 18px;
 }
 .roadmap .box .rm-box .corner-box::before {
-  width: calc(105% - 3rem);
+  width: calc(11% - 3rem);
 }
 .roadmap .box .rm-box .corner-box:hover::before {
   width: 0;
@@ -1181,8 +1181,8 @@
   left: 10px;
 }
 .roadmap .corner-box::after {
-  height: calc(98% - 0.1rem);
-  width: calc(107% + -30px);
+  height: calc(100% - 0rem);
+  width: calc(108% + -32px);
   left: 0px;
   top: 50%;
   transform: translateY(-50%);
@@ -4731,7 +4731,7 @@
   padding-bottom: 0;
 }
 .tf-section.tf-roadmap .overlay {
-  background: url("./../../assets/images/backgroup/bg1roadmap.png") center center no-repeat;
+  background: url("./../../assets/images/backgroup/6.jpg") center center no-repeat;
   background-size: cover;
   position: absolute;
   left: 0;
