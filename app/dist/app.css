@@ -891,7 +891,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: url('./../../assets/images/backgroup/3.jpg');
+  background-image: url('./../../assets/images/backgroup/7.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4734,7 +4734,7 @@
   padding-bottom: 0;
 }
 .tf-section.tf-roadmap .overlay {
-  background: url("./../../assets/images/backgroup/7.jpg") center center no-repeat;
+  background: url("./../../assets/images/backgroup/3.jpg") center center no-repeat;
   background-size: cover;
   position: absolute;
   left: 0;
