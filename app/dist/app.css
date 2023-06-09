@@ -6694,6 +6694,7 @@ img.mfp-img {
 }
 html {
   margin-right: 0 !important;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -6709,6 +6710,7 @@ body {
   font-weight: 400;
   color: #ffffff;
   background-color: #0c1226;
+  scroll-behavior: smooth;
 }
 
 img {
