@@ -1195,7 +1195,7 @@
   background: #1e272e;
 }
 .roadmap.scrol {
-  height: 937px;
+  height: 985px;
   overflow-y: auto;
 }
 .roadmap.scrol::-webkit-scrollbar {
